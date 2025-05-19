@@ -7,7 +7,7 @@ import HeroSlider from './heroSlider';
 
 export default function App() {
   return (
-    <div className="font-sans">
+    <div className="font-sans overflow-x-hidden">
       {/* Header */}
       <header className="bg-white shadow p-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-blue-600">AutoLuxe</h1>
